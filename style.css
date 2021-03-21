@@ -1,0 +1,38 @@
+h1 {
+    grid-column: span 5;
+    text-align: center;
+    box-shadow: 20px 0px 14px 7px;
+    background-color: white;
+}
+
+table{
+    grid-column: 2/5;
+    
+    
+}
+label{
+    grid-row: 3/4;
+   
+}
+#clickbutton{
+grid-row: 4/4;
+grid-column:3/3 ;
+font-size: 20px;
+ transition: all 2s;
+}
+#clickbutton:hover{
+    font-size: 32px;
+}
+
+#VehicleTable{
+    grid-row: 5/5;
+}
+
+body{
+    display: grid;
+    grid-template-columns:repeat(5 ,1fr);
+    grid-template-rows: repeat(20, minmax(50px , auto));
+    grid-gap: 5px;
+    background-color: #a4a4a4;;
+}
+
