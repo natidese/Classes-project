@@ -10,9 +10,9 @@ class Vehicle {
     }
   
     static returnMaxEngine(object1, object2, object3) {
-      if (objecr1.engine > object2.engine && object1.engine > object3.engine) {
+      if (object1.engine > object2.engine && object1.engine > object3.engine) {
         return object1;
-      } else if (obj2ect.engine > object1.engine && object2.engine > object3.engine) {
+      } else if (object2.engine > object1.engine && object2.engine > object3.engine) {
         return object2;
       }
       return object3;
